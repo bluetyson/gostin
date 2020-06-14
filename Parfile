@@ -1,0 +1,41 @@
+--- COLUMN NAMES IN CSV DATA FILES: -------------------------------------------------------------
+OBJECT COORDINATES              =WKT
+FAULT: ID                       =objectid
+FAULT: FEATURE                  =descr
+POLYGON: ID                     =objectid
+POLYGON: LEVEL1 NAME            =typename
+POLYGON: LEVEL2 NAME            =name
+POLYGON: MIN AGE                =yngage
+POLYGON: MAX AGE                =oldage
+POLYGON: CODE                   =mapsymbol
+POLYGON: DESCRIPTION            =descr
+POLYGON: ROCKTYPE1              =lithology
+POLYGON: ROCKTYPE2              =replith_ur
+DEPOSIT: SITE CODE              =OTHERID
+DEPOSIT: SITE TYPE              =CLASS
+DEPOSIT: SITE COMMODITY         =COMMODS
+--- SOME CONSTANTS: ----------------------------------------------------------------------------
+FAULT AXIAL FEATURE NAME        =fold
+SILL UNIT DESCRIPTION CONTAINS  =sill
+IGNEOUS ROCKTYPE CONTAINS                           =intrusive
+VOLCANIC ROCKTYPE CONTAINS                          =volcanic
+IGNORE DEPOSITS WITH SITE TYPE                      =Infrastructure
+Intersect Contact With Fault: angle epsilon (deg)   =1.0
+Intersect Contact With Fault: distance epsilon (m)  =15.0
+Distance buffer (fault stops on another fault) (m)  =20.0
+Distance buffer (point on contact) (m)              =500.0
+------------------------------------------------------------------------------------------------
+Path to the output data folder                      =C:\Users\rscott\Documents\Exploracorn\Australia\s3\exploracorn\shapefiles\graph/
+Path to geology data file                           =C:\Users\rscott\Documents\Exploracorn\Australia\s3\exploracorn\shapefiles\tmp/hams2_geol.csv
+Path to faults data file                            =C:\Users\rscott\Documents\Exploracorn\Australia\s3\exploracorn\shapefiles\tmp/GEOS_GEOLOGY_LINEARSTRUCTURE_500K_GSD.csv
+Path to mineral deposits data file                  =C:\Users\rscott\Documents\Exploracorn\Australia\s3\exploracorn\shapefiles\tmp/mindeps_2018.csv
+------------------------------------------------------------------------------------------------
+Clipping window X1 Y1 X2 Y2 (zeros for infinite)    =261137.849895105 5918968.947141168 1538726.5412068614 7674308.523821039
+Min length fraction for strat/fault graphs          =0.0
+Graph edge width categories (three doubles)         =2000. 20000. 200000.
+Graph edge direction (0-min age, 1-max age, 2-avg)  =2
+Deposit names for adding info on the graph          =Fe,Cu,Au,NONE
+Partial graph polygon ID                            =32
+Partial graph depth                                 =4
+Map subregion size dx, dy [m] (zeros for full map)  =0. 0.
+------------------------------------------------------------------------------------------------
